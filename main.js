@@ -36,4 +36,15 @@ $(document).ready(function(){
 		})	
     });
 
+    $("#delete").click(function() {
+
+    	$("#input").empty();
+    	$("#totalBeli").empty();
+    	$("#aset").empty();
+    	$("#saldo").empty();
+    	$("#untung").empty();
+    	$("#persen").empty();
+
+    })
+
 });
