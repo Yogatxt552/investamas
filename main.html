@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Document</title>
+    <title>Kalkulator Investamas</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js"></script>
   </head>
-  <body></body>
+  <body>
+      <h1>Masukkan berapa kali pembelian </h1>
+      <input type="number" id="n">
+      <button id="m">OK</button>
+      <button id="delete">CLEAR</button>
+      <div id='input'>
+          <p></p>
+      </div>
+      <div id='hasil'>
+          <h2>HASIL</h2>
+      </div>
+      Total Pembelian (IDR) : <b id="totalBeli"></b><br>
+      Aset anda (gr) : <b id="aset"></b><br>
+      Saldo Sekarang (IDR) : <b id="saldo"></b><br>
+      Untung (IDR) : <b id="untung"></b><br>
+      Persentase : <b id="persen"></b><br>
+  </body>
 </html>
