@@ -12,7 +12,22 @@ $(document).ready(function(){
 
 	    $("#input").append("Harga Jual <input type='text' id='jual'><br>");
 	    $("#input").append("<button id='hitung'>HITUNG</button>");
-	
+
+
+		$("#hitung").click(function() {
+			for (var i = 1; i <= n; i++) {
+				var beli = Number($("#beli"+i).val());
+				var hargaBeli = Number($("#jual"+i).val());
+				totalBeli += beli;
+				gr += beli / hargaBeli;
+			}
+
+			hargaJual = Number($("#jual").val());
+			saldo = gr * hargaJual
+			untung = saldo - totalBeli
+			persen = (saldo * 100) / totalBeli - 100
+
+		})	
     });
 
 });
