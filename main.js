@@ -27,6 +27,12 @@ $(document).ready(function(){
 			untung = saldo - totalBeli
 			persen = (saldo * 100) / totalBeli - 100
 
+			$("#totalBeli").append(totalBeli);
+			$("#aset").append(gr);
+			$("#saldo").append(saldo);
+			$("#untung").append(untung);
+			$("#persen").append(persen+"%");
+
 		})	
     });
 
