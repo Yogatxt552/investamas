@@ -23,10 +23,10 @@ $(document).ready(function(){
 
 			hargaJual = Number($("#jual").val());
 			saldo = gr * hargaJual
-			saldofix = saldo.toFixed(2)
 			untung = saldo - totalBeli
-			untungfix = untung.toFixed(2)
 			persen = (saldo * 100) / totalBeli - 100
+			saldofix = saldo.toFixed(2)
+			untungfix = untung.toFixed(2)
 			persenfix = persen.toFixed(2)
 
 			$("#totalBeli").append(totalBeli);
