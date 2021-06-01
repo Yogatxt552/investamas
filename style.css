@@ -39,3 +39,11 @@
 .item-about:hover::after {
   margin-left: 22px;
 }
+
+/* slider */
+.text {
+  text-align: left;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+}
