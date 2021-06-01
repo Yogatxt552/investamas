@@ -46,5 +46,7 @@ $(document).ready(function(){
 			$("#saldo").empty();
 			$("#untung").empty();
 			$("#persen").empty();
+	    		totalBeli = 0;
+			gr = 0
     })
 });
