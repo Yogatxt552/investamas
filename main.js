@@ -7,12 +7,12 @@ $(document).ready(function(){
 		var n = $("#n").val();
 			for ( var i = 1; i <= n; i++) {
 				$("#input").append("<br>Pembelian ke-"+i+"<br>");
-				$("#input").append(" Nominal Beli (IDR) <input type='text' id='beli"+i+"'><br>");
-				$("#input").append(" Harga Beli (IDR)<input type='text' id='jual"+i+"'><br>");
+				$("#input").append(" Nominal Beli (IDR) <input type='number' class='form-control form-control-sm' id='beli"+i+"'>");
+				$("#input").append(" Harga Beli (IDR)<input type='number' class='form-control form-control-sm' id='jual"+i+"'>");
 			}
 
-			$("#input").append("Harga Jual <input type='text' id='jual'><br>");
-			$("#input").append("<button id='hitung'>HITUNG</button>");
+			$("#input").append("Harga Jual type='number' class='form-control form-control-sm' id='jual'><br>");
+			$("#input").append("<button class='button-hitung' id='hitung'>HITUNG</button>");
 
 		$("#hitung").click(function() {
 			for (var i = 1; i <= n; i++) {
