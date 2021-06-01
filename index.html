@@ -1,7 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Document</title>
+    <title>Investamas | Investasi Emas</title>
+    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="lib/ionicons/css/ionicons.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   </head>
-  <body></body>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light p-md-3 fixed-top">
+      <div class="container">
+        <a href="index.html" class="logo"><img src="img/logo.png" height="30" style="margin-top: -8px" />INVESTAMAS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item item-home"><a class="nav-link text-dark" href="#home">home</a></li>
+            <li class="nav-item item-feature"><a class="nav-link text-gray-dark" href="#feature">feature</a></li>
+            <li class="nav-item item-about"><a class="nav-link text-gray-dark" href="#about">about</a></li>
+            <li class="nav-item item-contact"><a class="nav-link text-gray-dark" href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- slider -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div id="home" class="carousel-inner" style="height: 100vh">
+        <div class="carousel-item active" data-bs-interval="5000" style="background-image: url(img/bg1.jpg); background-size: cover; height: 100%; padding-top: 210px">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h1 class="text">Selamat Datang,<font style="color: goldenrod"> Investamas</font> Siap Membantu Anda</h1>
+              </div>
+              <div class="col"></div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000" style="background-image: url(img/bg3.jpg); background-size: cover; height: 100%; padding-top: 180px">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h1 class="text">Website Untuk Menghitung Keuntungan Investasi</h1>
+              </div>
+              <div class="col"></div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="5000" style="background-image: url(img/bg2.jpg); background-size: cover; height: 100%; padding-top: 150px">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h1 class="text">Kalkulator Perhitungan Investasi Emas</h1>
+              </div>
+              <div class="col"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev" style="border: none; background-color: transparent">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next" style="border: none; background-color: transparent">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+
+    <!-- feature -->
+    <section class="py-lg-5" id="feature">
+      <div class="container">
+        <div class="section-title">Feature</div>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <br /><br />
+            <h1><font style="font-weight: 700; color: gold">Investamas</font><font style="font-weight: 300"> memiliki fitur Kalkulator Emas untuk menghitung profit anda</font></h1>
+            <button id="myBtn" class="btn" style="background-color: gold; color: white"><a href="main.html">Coba Sekarang</a></button>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <img src="img/gold1.png" style="height: 300px" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us -->
+    <section class="py-lg-5" id="about">
+      <div class="container">
+        <div class="section-title">About <font style="color: gold">Us</font></div>
+
+        <div class="row">
+          <div class="col-md-4 filter">
+            <div class="canvas-item-2 card">
+              <div class="img-canvas card-img-top" style="background-image: url('img/sulime.jpg')"></div>
+              <div class="content-canvas">
+                <div class="title-canvas">Sulimah</div>
+                <div class="sub-title-canvas">200411100054</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 filter">
+            <div class="canvas-item-2 card">
+              <div class="img-canvas card-img-top" style="background-image: url('img/yoga.jpg')"></div>
+              <div class="content-canvas">
+                <div class="title-canvas">Yoga Tirta Permana</div>
+                <div class="sub-title-canvas">2004111100142</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 filter">
+            <div class="canvas-item-2 card">
+              <div class="img-canvas card-img-top" style="background-image: url('img/fanani.jpg')"></div>
+              <div class="content-canvas">
+                <div class="title-canvas">Ahmad Fanani</div>
+                <div class="sub-title-canvas">200411100143</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <div style="background: #eeeeee" class="py-lg-5 text-center" id="contact">
+      <div class="container">
+        <div class="section-title">Contact<font style="color: gold"> Us</font></div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="title-contact">Drop Your Question Here</div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" class="form-control" placeholder="Name" />
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="text" class="form-control" placeholder="Email" />
+              </div>
+              <div class="col-md-12 form-group">
+                <input type="text" class="form-control" placeholder="Subject" />
+              </div>
+              <div class="col-md-12 form-group">
+                <textarea class="form-control" placeholder="Message"></textarea>
+              </div>
+              <div class="col-md-12 text-center">
+                <button class="btn btn-warning" type="submit">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="container" style="padding: 10px; text-align: center">
+        <a class="link" href="#home">Home</a>
+        <a class="link" href="#feature">Feature</a>
+        <a class="link" href="#about">About</a>
+        <a class="link" href="#contact">Contact</a>
+      </div>
+      <div class="container" style="text-align: center">
+        <h6 id="link" style="color: white">Connect With Us</h6>
+        <a id="sosmed" href="https://www.instagram.com" class="fa fa-instagram"></a>
+        <a id="sosmed" href="https://www.twitter.com" class="fa fa-twitter"></a>
+        <a id="sosmed" href="https://www.youtube.com" class="fa fa-youtube-play"></a>
+        <a id="sosmed" href="https://www.facebook.com" class="fa fa-facebook"></a>
+      </div>
+      <p>Copyright &copy; 2021 | Investamas | Investasi Emas</p>
+    </footer>
+  </body>
+
+  <script type="text/javascript">
+    var nav = document.querySelector("nav");
+    window.addEventListener("scroll", function () {
+      if (window.pageYOffset > 100) {
+        nav.classList.add("bg-light", "shadow");
+      } else {
+        nav.classList.remove("bg-light", "shadow");
+      }
+    });
+  </script>
 </html>
