@@ -68,6 +68,17 @@
   position: relative;
 }
 
+.btn a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 /* about */
 .canvas-item {
   position: relative;
