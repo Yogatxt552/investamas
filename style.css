@@ -117,3 +117,45 @@
   margin-bottom: 15px;
   text-align: left;
 }
+
+/* footer */
+.link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: gray;
+  text-decoration: none;
+  padding: 10px;
+}
+#sosmed {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+#sosmed:hover {
+  color: gold;
+}
+footer {
+  background-color: black;
+  padding-bottom: 10px;
+}
+footer a {
+  color: gray;
+}
+footer a:hover {
+  color: gold;
+  text-decoration: none;
+}
+footer p {
+  color: gray;
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+
+@media (max-width: 990px) {
+  #maps {
+    align-items: center;
+    margin-left: -17px;
+  }
+}

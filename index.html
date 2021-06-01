@@ -162,5 +162,34 @@
         </div>
       </div>
     </div>
+
+    <!-- footer -->
+    <footer>
+      <div class="container" style="padding: 10px; text-align: center">
+        <a class="link" href="#home">Home</a>
+        <a class="link" href="#feature">Feature</a>
+        <a class="link" href="#about">About</a>
+        <a class="link" href="#contact">Contact</a>
+      </div>
+      <div class="container" style="text-align: center">
+        <h6 id="link" style="color: white">Connect With Us</h6>
+        <a id="sosmed" href="https://www.instagram.com" class="fa fa-instagram"></a>
+        <a id="sosmed" href="https://www.twitter.com" class="fa fa-twitter"></a>
+        <a id="sosmed" href="https://www.youtube.com" class="fa fa-youtube-play"></a>
+        <a id="sosmed" href="https://www.facebook.com" class="fa fa-facebook"></a>
+      </div>
+      <p>Copyright &copy; 2021 | Investamas | Investasi Emas</p>
+    </footer>
   </body>
+
+  <script type="text/javascript">
+    var nav = document.querySelector("nav");
+    window.addEventListener("scroll", function () {
+      if (window.pageYOffset > 100) {
+        nav.classList.add("bg-light", "shadow");
+      } else {
+        nav.classList.remove("bg-light", "shadow");
+      }
+    });
+  </script>
 </html>
