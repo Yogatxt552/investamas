@@ -12,7 +12,7 @@ $(document).ready(function(){
 			}
 
 			$("#input").append("Harga Jual <input type='number' class='form-control form-control-sm' id='jual'><br>");
-			$("#input").append("<button class='button-hitung' id='hitung'>HITUNG</button>");
+			$("#input").append("<button class='button-hitung' id='hitung'><br>HITUNG</button>");
 
 		$("#hitung").click(function() {
 			for (var i = 1; i <= n; i++) {
