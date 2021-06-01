@@ -47,3 +47,12 @@
   font-weight: 900;
   font-size: 60px;
 }
+
+/* feature */
+.section-title {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
