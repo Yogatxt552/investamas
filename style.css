@@ -110,3 +110,10 @@
 .card-img-top {
   border-radius: 100%;
 }
+
+/* contact */
+.title-contact {
+  font-size: 25px;
+  margin-bottom: 15px;
+  text-align: left;
+}
