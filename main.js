@@ -11,7 +11,7 @@ $(document).ready(function(){
 				$("#input").append(" Harga Beli (IDR)<input type='number' class='form-control form-control-sm' id='jual"+i+"'>");
 			}
 
-			$("#input").append("Harga Jual type='number' class='form-control form-control-sm' id='jual'><br>");
+			$("#input").append("Harga Jual <input type='number' class='form-control form-control-sm' id='jual'><br>");
 			$("#input").append("<button class='button-hitung' id='hitung'>HITUNG</button>");
 
 		$("#hitung").click(function() {
