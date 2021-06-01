@@ -13,6 +13,17 @@
   color: gold;
   text-decoration: none;
 }
+
+.logo2 {
+  font-family: sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+.logo2:hover {
+  color: gold;
+  text-decoration: none;
+}
 .nav-link {
   text-transform: uppercase;
   margin-right: 20px;
