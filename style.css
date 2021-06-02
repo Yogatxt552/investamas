@@ -3,23 +3,17 @@
 }
 
 /* navbar */
-.logo {
+.logo,
+.logo2 {
   font-family: sans-serif;
   color: black;
   font-size: 20px;
   font-weight: 800;
 }
-.logo:hover {
-  color: gold;
-  text-decoration: none;
-}
-
 .logo2 {
-  font-family: sans-serif;
   color: white;
-  font-size: 20px;
-  font-weight: 800;
 }
+.logo:hover,
 .logo2:hover {
   color: gold;
   text-decoration: none;
@@ -79,47 +73,11 @@
 
 /* about */
 .canvas-item {
-  position: relative;
-}
-.canvas-item > .icon-canvas-wrapper {
-  position: absolute;
-  width: 100%;
-  text-align: center;
-  margin-top: -20px;
-  font-size: 1.5em;
-}
-.canvas-item > .title-canvas {
-  margin-top: 2em;
-  font-size: 1.2em;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-bottom: 20px;
-}
-.canvas-item-2 {
   box-shadow: 3px 3px 10px 0 #ccc;
   margin-bottom: 20px;
   position: relative;
 }
-.canvas-item-2:hover .content-overlay {
-  display: block;
-}
-.canvas-item-2 .title-canvas {
-  font-size: 1em;
-  font-weight: bold;
-  text-align: center;
-}
-.canvas-item-2 .sub-title-canvas {
-  font-size: 1em;
-  text-transform: uppercase;
-  text-align: center;
-  color: gray;
-}
-.canvas-item-2 .content-canvas {
-  padding: 20px;
-  background-color: #fff;
-}
-.canvas-item-2 .img-canvas {
+.canvas-item .img-canvas {
   height: 350px;
   width: 350px;
   background-position: center;
@@ -129,6 +87,21 @@
 }
 .card-img-top {
   border-radius: 100%;
+}
+.canvas-item .content-canvas {
+  padding: 20px;
+  background-color: #fff;
+}
+.canvas-item .title-canvas {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+}
+.canvas-item .sub-title-canvas {
+  font-size: 1em;
+  text-transform: uppercase;
+  text-align: center;
+  color: gray;
 }
 
 /* contact */
@@ -173,26 +146,10 @@ footer p {
   padding-top: 10px;
 }
 
-@media (max-width: 990px) {
-  #maps {
-    align-items: center;
-    margin-left: -17px;
-  }
-}
-
 /* main.html */
-.container-hasil {
+.container-main {
   width: 40%;
   padding: 10px 20px;
-  background-color: #98e3c0;
-  margin: 20px 31%;
-  margin-top: 91px;
-  border-radius: 20px;
-}
-.container-hitung {
-  width: 40%;
-  padding: 10px 20px;
-  background-color: #8bd7d9;
   margin: 20px 31%;
   border-radius: 20px;
 }
@@ -208,14 +165,6 @@ footer p {
 }
 .button-hitung {
   width: 100%;
-  background-color: #4caf50;
-  border: none;
-  color: white;
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  cursor: pointer;
 }
 .button:hover,
 .button-hitung:hover {
